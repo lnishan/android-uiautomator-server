@@ -23,18 +23,18 @@
 
 package com.github.uiautomator.stub
 
-import android.support.test.InstrumentationRegistry
-import android.support.test.filters.SdkSuppress
-import android.support.test.runner.AndroidJUnit4
-import android.support.test.uiautomator.UiDevice
+import androidx.test.InstrumentationRegistry
+import androidx.test.filters.SdkSuppress
+import androidx.test.runner.AndroidJUnit4
+import androidx.test.uiautomator.UiDevice
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.googlecode.jsonrpc4j.JsonRpcServer
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import android.support.test.filters.LargeTest;
-//import android.support.test.filters.FlakyTest;
+import androidx.test.filters.LargeTest;
+//import androidx.test.filters.FlakyTest;
 import android.test.FlakyTest;
 
 /**

@@ -1,8 +1,8 @@
 package com.github.uiautomator.stub;
 
 import android.app.UiAutomation;
-import android.support.test.uiautomator.UiDevice;
 import android.view.Display;
+import androidx.test.uiautomator.UiDevice;
 import com.github.uiautomator.stub.helper.core.InteractionController;
 import com.github.uiautomator.stub.helper.core.QueryController;
 import static com.github.uiautomator.stub.helper.ReflectionUtils.getField;
